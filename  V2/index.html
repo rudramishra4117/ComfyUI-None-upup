@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple bookmark manager">
+    <title>Bookmark manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1>My bookmarks</h1>
+     <img width="150" src="image.png" alt="library logo" >
+     <br>
+     <h3>Register here:</h3>
+     <form action="/submit" method="post">
+       
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required placeholder="Enter your username">
+      <br><br>
+  
+       
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="PASSWORD">
+      <br><br>
+  
+       
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <br><br>
+
+      <label for="t&C">Terms & conditions</label>
+      <input type="checkbox" id="t&C" name="Terms & conditions" value="yes">
+
+  
+       
+      <input type="submit" value="Submit">
+    </form>
+    
+     <h2>Primary Bookmark</h2>
+    <ul type="circle">
+     <li><a target="_blank" href="www.youtube.com">Open youtube</a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/feed/">Open LinkedIn</a></li>
+    <li><a target="_blank" href="https://x.com/home">Open X</a></li>
+    <li><a target="_blank" href="https://github.com/">Open Github</a></li>
+     <h2>Secondary bookmarks</h2>
+    <li><a target="_blank" href="chatgpt.com">Open Chatgpt</a></li>
+    </ul>  
+    
+      <script src="script.js"></script>
+</body>
+</html>
